@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-	input[type="text"]:focus ~ .input-text {
-		@apply text-blue-600 bg-white px-1 transform  -translate-y-9 text-base;
+	input[type='text']:focus ~ .input-text {
+		@apply text-blue-600 bg-white px-1 transform duration-500  -translate-y-6 text-base;
 	}
 }
